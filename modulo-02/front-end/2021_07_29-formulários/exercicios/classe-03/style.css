@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+musica {
+    display: none;
+}

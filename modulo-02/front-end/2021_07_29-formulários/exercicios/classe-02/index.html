@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="cadastro">
+        <h1>Formulário de Cadastro</h1>
+        <br>
+
+        <form>
+            <div>
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" required>
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <input id="email" type="email" required>
+            </div>
+
+            <div>
+                <label for="celular">Celular</label>
+                <input id="celular" type="number" required>
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input id="senha" type="password" required>
+            </div>
+
+            <div>
+                <label for="confirmar-senha">Confirme sua senha</label>
+                <input id="confirmar-senha" type="password" required>
+            </div>
+
+            <div>
+                <label for="estado">Estado</label>
+                <select id="estado" required>                    
+                    <option>Estados</option>
+                </select>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div> 
+</body>
+</html>

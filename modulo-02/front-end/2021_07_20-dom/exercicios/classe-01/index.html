@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+
+        <title>Slider</title>
+    </head>
+
+    <body>
+        <div class="content-wrapper">
+            <div class="text-wrapper">
+                <p class="review-text">“Estive interessada em código por um tempo mas não tomava uma atitude, até agora.
+                    Não consigo recomendar esse curso o suficiente. Estou no trabalho dos meu sonhos e vejo um futuro
+                    brilhante!”</p>
+                <div class="author__content-wrapper">
+                    <div class="author__name">Gabriela da Silva</div>
+                    <div class="author__title">Desenvolvedora Fullstack</div>
+                </div>
+            </div>
+
+            <div class="carousel">
+                <div class="carousel__img-wrapper">
+                    <img src="./assets/gabriela.jpg" alt="bootcamp graduate" class="carousel__img">
+                </div>
+                <div class="carousel__btn-wrapper">
+                    <button id="btn-prev" class="btn btn--previous" onclick="pessoaAnterior()"><img
+                            src="./assets/icon-prev.svg" alt="previous button"></button>
+                    <button id="btn-next" class="btn btn--next" onclick="proximaPessoa()"><img
+                            src="./assets/icon-next.svg" alt="next button"></button>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        const pessoas = [{
+            nome: 'Roberta Souza',
+            profissao: 'Desenvolvedor Fullstack',
+            descricao: '“O curso de Desenvolvimento foi uma ótima escolha. O conteúdo é pensado de forma bastante organizada, com atenção a melhor metodologia para o aprendizado. Eu recomendo o curso!”',
+            foto: './assets/roberta.jpg'
+        }, {
+            nome: 'Gabriela da Silva',
+            profissao: 'Desenvolvedora Fullstack',
+            descricao: '“Estive interessada em código por um tempo mas não tomava uma atitude, até agora. Não consigo recomendar esse curso o suficiente. Estou no trabalho dos meu sonhos e vejo um futuro brilhante!”',
+            foto: './assets/gabriela.jpg'
+        }, {
+            nome: 'João Nogueira',
+            profissao: 'Desenvolvedor Front-end',
+            descricao: '“Se você quiser ter a melhor base possível, recomendo fazer este curso. A profundidade em que os instrutores entram é incrível. Agora me sinto muito confiante em começar como um desenvolvedor profissional.”',
+            foto: './assets/joao.jpg'
+        }];
+
+        const review = document.querySelector(".review-text");
+        const name = document.querySelector(".author__name");
+        const title = document.querySelector(".author__title");
+        const imagem = document.querySelector(".carousel__img");        
+
+        function pessoaAnterior() {
+            const i = pessoas.findIndex(valor => valor.nome === name.textContent);
+            review.textContent = i === 0 ? pessoas[pessoas.length - 1].descricao : pessoas[i - 1].descricao;
+            name.textContent = i === 0 ? pessoas[pessoas.length - 1].nome : pessoas[i - 1].nome;
+            title.textContent = i === 0 ? pessoas[pessoas.length - 1].profissao : pessoas[i - 1].profissao;
+            imagem.src = i === 0 ? pessoas[pessoas.length - 1].foto : pessoas[i - 1].foto;
+        }        
+
+        function proximaPessoa() {
+            const i = pessoas.findIndex(valor => valor.nome === name.textContent);
+            review.textContent = i === pessoas.length - 1 ? pessoas[0].descricao : pessoas[i + 1].descricao;
+            name.textContent = i === pessoas.length - 1 ? pessoas[0].nome : pessoas[i + 1].nome;
+            title.textContent = i === pessoas.length - 1 ? pessoas[0].profissao : pessoas[i + 1].profissao;
+            imagem.src = i === pessoas.length - 1 ? pessoas[0].foto : pessoas[i + 1].foto;
+        }
+    </script>
+
+</html>

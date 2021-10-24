@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+    
+    background-color: #EFDADA;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 60px;
+
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+h1 {
+    margin-bottom: 70px;
+
+    font-size: 30px;
+    line-height: 35px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 60px;
+}
+
+label {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 16px;
+}
+
+input {
+    min-width: 350px;
+
+    padding: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #4E4E4E;
+    border-radius: 8px; 
+}
+
+.formulario__email {
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 20px;
+}
+
+.formulario__senha {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-input__senha {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+}
+
+img {
+    position: absolute;
+
+    top: 12px;
+    right: 10px;
+    bottom: 12px;
+    left: 320px;
+}
+
+input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
+    display: none;
+}
+
+.btn {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 35px;
+
+    background: #13A1F0;
+    border-radius: 8px;
+
+    color: #FFFFFF;
+
+    font-size: 14px;
+    line-height: 16px;
+}

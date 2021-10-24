@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            min-height: 100vh;
+        }
+
+        h1 {
+            margin-left: 40px;
+        }
+
+        img {
+            margin-bottom: 10px;
+        }
+
+        .descricao {
+            margin-top: 2px;
+            margin-bottom: 50px;
+        }
+
+        .nome, .descricao {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Contatos</h1>
+
+    <ul class="contatos">
+        <li>
+            <img src="">
+            <div class="informacao-contato">
+                <div class="nome"></div>
+                <div class="descricao"></div>
+            </div>
+        </li>
+        <li>
+            <img src="">
+            <div class="informacao-contato">
+                <div class="nome"></div>
+                <div class="descricao"></div>
+            </div>
+        </li>
+        <li>
+            <img src="">
+            <div class="informacao-contato">
+                <div class="nome"></div>
+                <div class="descricao"></div>
+            </div>
+        </li>
+        <li>
+            <img src="">
+            <div class="informacao-contato">
+                <div class="nome"></div>
+                <div class="descricao"></div>
+            </div>
+        </li>
+        <li>
+            <img src="">
+            <div class="informacao-contato">
+                <div class="nome"></div>
+                <div class="descricao"></div>
+            </div>
+        </li>
+    </ul>
+</body>
+
+<script>
+    const caminhoImagens = './assets';
+    const contatos = [{
+        mensagens: 1024,
+        nome: 'Mãe ❤',
+        descricao: 'O Senhor é o meu pastor; de nada me faltará. (Salmos 23:1) 🙏🙏',
+        imagem: `${caminhoImagens}/alice.jpg`
+    }, {
+        mensagens: 645,
+        nome: 'Tio Omar',
+        descricao: 'Disponível',
+        imagem: `${caminhoImagens}/omar.jpg`
+    }, {
+        mensagens: 877,
+        nome: 'Irene RH',
+        descricao: 'Olá! Eu estou usando o WhatsApp.',
+        imagem: `${caminhoImagens}/irene.jpg`
+    }, {
+        mensagens: 30,
+        nome: 'Otavio Carona',
+        descricao: '',
+        imagem: `${caminhoImagens}/otavio.jpg`
+    }, {
+        mensagens: 190,
+        nome: 'Isaura',
+        descricao: '🌞',
+        imagem: `${caminhoImagens}/isaura.jpg`
+    }, {
+        mensagens: 249,
+        nome: 'Assistência Técnica',
+        descricao: 'Horário de atendimento 08:00 - 17:30',
+        imagem: `${caminhoImagens}/tiago.jpg`
+    }, {
+        mensagens: 581,
+        nome: 'Lurdes ONG animais',
+        descricao: '🐱🐶',
+        imagem: `${caminhoImagens}/lurdes.jpg`
+    }];
+
+    const maisMensagens = contatos.sort((a, b) => a.mensagens - b.mensagens);
+    const primeirosContatos = maisMensagens.slice(0, 5);
+    const itensDaLista = document.querySelectorAll('li');
+
+    for (let i = 0; i < primeirosContatos.length; i++) {
+        const img = itensDaLista[i].querySelector('img');
+        const nome = itensDaLista[i].querySelector('.nome');
+        const descricao = itensDaLista[i].querySelector('.descricao');
+
+        img.src = primeirosContatos[i].imagem;
+        nome.textContent = primeirosContatos[i].nome;
+        descricao.textContent = primeirosContatos[i].descricao;
+
+        img.style.width = '250px';
+        img.style.height = '250px';
+
+        itensDaLista[i].style.listStyleType = 'none';
+    }
+</script>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculo de IMC</title>
+
+        <link rel="stylesheet" href="exercicio2_tudo.css">
+        <script src="exercicio2_tudo.js" defer></script>
+    </head>
+
+    <body>
+        <div class="cadastro">
+            <h1>Cadastro</h1>
+            <br>
+
+            <form>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="nome" type="text" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="repita-senha">Repita a senha</label>
+                    <input id="repita-senha" type="password" required>
+                </div>
+                <br>
+
+                <div>                    
+                    <label>
+                        Já é cliente? Sim
+                        <input type="radio" name="eh-cliente">
+                    </label>
+
+                    <label>
+                        Não
+                        <input type="radio" name="eh-cliente" checked>
+                    </label>
+                </div>
+                <br>
+                
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </body>
+
+</html>

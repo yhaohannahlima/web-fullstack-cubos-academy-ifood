@@ -1,0 +1,106 @@
+/*--------------------------------POSITION RELATIVE----------------------------------*/
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+
+    background-color: peachpuff;
+
+    padding: 15px;
+}
+
+.card {
+    width: 120px;
+    height: 80px;
+
+    background-color: palevioletred;
+
+    margin: 0 10px;
+    border: 2px solid #000;
+    border-radius: 8px;
+} 
+ 
+.card--blue {
+    background-color: cornflowerblue;
+
+    position: relative;
+    top: 50px;
+    left: 60px;
+} */
+
+/*--------------------------------POSITION ABSOLUTE----------------------------------*/
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+
+    background-color: peachpuff;
+
+    padding: 15px;
+
+    position: relative;
+}
+
+.card {
+    width: 120px;
+    height: 80px;
+
+    background-color: palevioletred;
+
+    margin: 0 10px;
+    border: 2px solid #000;
+    border-radius: 8px;
+} 
+ 
+.card--blue {
+    background-color: cornflowerblue;
+
+    position: absolute;
+    top: 50px;
+} */
+
+
+/*---------------------------------CRIANDO UM MODAL----------------------------------*/
+/* .modal {
+    background-color: rgba(0,0,0,0.6);
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/*-------------------------------PROPAGAÇÃO DE EVENTOS-------------------------------*/
+/* .modal {
+    background-color: rgba(0,0,0,0.6);
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+} */
+
+

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-width: 100vh;
+    min-height: 100vh;
+
+    padding: 50px;
+}
+
+.busca {
+    all: unset;
+    margin: 0;
+    padding: 0;
+
+    width: 300px;
+    height: 30px;
+
+    margin-bottom: 50px;
+    padding: 10px;
+
+    border-radius: 10px;
+    
+    border: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.selecionar {
+    display: flex;
+    flex-direction: column;
+}
+
+.paises {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.pais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+
+    margin-top: 20px;
+}
+
+.escondido {
+    display: none;
+}
+
+
+

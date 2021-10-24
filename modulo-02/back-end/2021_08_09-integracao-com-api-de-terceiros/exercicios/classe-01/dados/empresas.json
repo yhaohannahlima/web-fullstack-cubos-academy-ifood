@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Airbnb",
+    "domain": "airbnb.com",
+    "year_founded": 2008,
+    "industry": "Internet",
+    "employees_count": 14604,
+    "locality": "San Francisco",
+    "country": "United States",
+    "linkedin_url": "linkedin.com/company/airbnb"
+  },
+  {
+    "name": "Netflix",
+    "domain": "netflix.com",
+    "year_founded": 1997,
+    "industry": "Entertainment",
+    "employees_count": 11436,
+    "locality": "Los Gatos",
+    "country": "United States",
+    "linkedin_url": "linkedin.com/company/netflix"
+  },
+  {
+    "name": "Nextar, Tecnologia De Software",
+    "domain": "nextar.com.br",
+    "year_founded": 2001,
+    "industry": "Computer software",
+    "employees_count": 50,
+    "locality": "Florianópolis",
+    "country": "Brazil",
+    "linkedin_url": "linkedin.com/company/nextar-tecnologia-de-software"
+  }
+]

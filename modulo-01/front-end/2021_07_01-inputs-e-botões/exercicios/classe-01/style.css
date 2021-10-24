@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #9AA6CF;
+
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 34px 44px rgba(160, 181, 255, 0.28);
+    border-radius: 10px;
+
+    width: 693px;
+    height: 794px;
+
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 40%;
+
+    margin-top: 70px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+}
+
+.dados-pagamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 85%;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 50px;
+}
+
+.valor-pagamento {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h2 {
+    margin-bottom: 5px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-bottom: 5px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+input {
+    all: unset;
+    box-sizing: border-box;
+    
+    background: #FFFFFF;
+    border: 1px solid #CED5EC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    width: 100%;
+    padding: 26px;
+
+    text-align: left;
+}
+
+.validacao-cartao {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.data-vencimento, .dados-seguranca {
+    flex-grow: 0.45;
+}
+
+span {  
+    width: 75%;
+
+    margin-bottom: 27px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+
+    background: #5F82FF;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+    margin-bottom: 40px;
+    padding: 45px 256px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;   
+}
+
+input::placeholder {
+    color: #000000;
+    text-align: left;
+
+}
+
+input:focus {
+    border: 1px solid #5F82FF;
+}
+
+button:hover {
+    background: #093DF3;
+    box-shadow: 0px 7px 24px rgba(9, 61, 243, 0.3);
+}
+
+

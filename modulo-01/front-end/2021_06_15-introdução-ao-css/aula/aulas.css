@@ -1,0 +1,120 @@
+/*------------------------------ARQUIVOS EXTERNOS CSS--------------------------------*/
+/* h1 {
+    color: red;
+} */
+
+/*===================================================================================*/
+/* * {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+}
+
+h1.laranja {
+    color: orange;
+}
+
+h1#roxo {
+    color: purple;
+}
+
+h2 {
+    color: blue;
+} */
+
+
+/*----------------------------SELETORES BÁSICOS DO CSS-------------------------------*/
+/* header > h1 {
+    color: green;
+}
+
+div h1 {
+    color: purple;
+}
+
+h1, h2 {
+    color: orange;
+}
+
+h1.vermelho {
+    color: red;
+} */
+
+
+/*-----------------------ORDEM DE PRIORIDADE E EFEITO CASACATA-----------------------*/
+/* body {
+    margin: 0px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.vermelho {
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.verde {
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+.azul {
+    background-color: blue;    
+} */
+
+
+/*-------------------------------------HERANÇA---------------------------------------*/
+/* body {
+    margin: 0px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    padding: 10px; 
+}
+
+.vermelho {
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+.verde {
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+.azul {
+    background-color: blue;    
+} */
+
+
+/*-----------------------------MARGIN, BORDER E PADDING------------------------------*/
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: red;
+    padding: 15px 10px; 
+}
+
+p {
+    background-color: blue;
+    color: white;
+    margin: 20px 0px;
+    padding: 5px 10px;
+}
+
+a {
+   padding-left: 10px; 
+} */

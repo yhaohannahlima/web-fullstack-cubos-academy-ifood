@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #E9EEF6;
+
+    min-height: 100vh;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+
+    width: 1437px;
+    height: 608px;
+
+    padding: 90px 60px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.buscas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search, .browser, .maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 30%;
+    height: 328px;
+
+    border-radius: 5px;
+}
+
+.buscas img {
+    background: #FFFFFF;
+    border: 10px solid #FFFFFF;
+    border-radius: 50px;   
+
+    margin-top: 35px;
+    margin-bottom: 6px;
+}
+
+.buscas h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.buscas p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+    
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.buscas a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #0C1727;
+    border-radius: 3px;
+
+    width: 226px;
+    height: 46px;
+    
+    margin-bottom: 50px;
+
+    text-decoration: none;
+
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.search {
+    background: #F8F2FA;
+}
+
+.browser {
+    background: #FAF2F4;
+}
+
+.maps {
+    background: #F5F2FA;
+}

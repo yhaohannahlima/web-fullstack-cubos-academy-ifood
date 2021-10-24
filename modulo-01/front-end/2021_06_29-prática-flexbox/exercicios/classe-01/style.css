@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #F2F2F2;
+    min-height: 100vh;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    
+    flex-basis: 1000px;
+    height: 500px;
+}
+
+.cardsedan, .cardsuv, .cardluxury{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+
+    padding: 48px;
+
+    width: 30%;
+    height: 100%;
+
+    border-radius: 8px;
+}
+
+.cardsedan {    
+    background: #E28625;
+    
+}
+
+.cardsuv {
+    background: #006971;
+}
+
+.cardluxury {
+    background: #004140;
+
+}
+
+h1 {
+    color: #F2F2F2;
+
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #FFFFFF;
+    
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+a {
+    text-decoration: none;
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+
+    width: 146px;
+    height: 48px;
+
+    border-radius: 30px;
+}
+
+#btn-sedan {
+    color: #E28625;
+}
+
+#btn-suv {
+    color: #006971;
+}
+
+#btn-luxury {
+    color: #004140;
+}

@@ -1,0 +1,39 @@
+body {
+    font-size: 200%;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, main, aside, footer {
+    text-align: center;
+    color: #fff;
+}
+
+header, footer {
+    background-color: royalblue;
+}
+
+main {
+    background-color: palevioletred;
+    flex-grow: 1;
+}
+
+aside {
+    background-color: peachpuff;
+    flex-basis: 300px;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;    
+}
+
+main, aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+      
+    background: #FFFFFF;    
+    width: 350px;
+    height: 374px;
+
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+    
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.imagemFundo {
+    border-radius: 15px 15px 0px 0px;       
+}
+
+.imagem {
+    border-radius: 50px;
+    border: 5px solid #FFFFFF;
+    margin-top: -50px;
+    margin-bottom: 24px;
+}
+
+.identificador {
+    display: flex;
+    align-items: baseline;
+}
+
+h1 {
+    color: #2E3349;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+
+    margin-bottom: 15px;
+}
+
+span {
+    color: #6B7082;
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+
+    margin-left: 9px;
+    margin-bottom: 15 px;
+}
+
+p {
+    color: #6B7082;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+
+    margin-bottom: 30px;
+}
+
+.informacoes { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+         
+    width: 350px;  
+    height: 78px;  
+    border-top: #E8E9EC solid 1px;     
+}
+
+.numeros {
+    display: flex;
+    flex-direction: row;    
+}
+
+.numeros span {
+    width: 117px;
+    flex-grow: 1;
+
+    color: #2E3349;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    
+    margin-bottom: 10px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto span {
+    width: 117px;
+
+    color: #6B7082;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 1.5px;
+}

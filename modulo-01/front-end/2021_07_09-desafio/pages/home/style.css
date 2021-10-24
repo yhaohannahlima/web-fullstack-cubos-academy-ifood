@@ -1,0 +1,51 @@
+/* PÁGINA DESCONSIDERANDO O FOOTER */
+.main {
+    padding: 60px 165px 0px 165px;
+}
+
+/* HEADER */
+.header__li {
+    list-style-type: none;
+}
+
+.header__link {    
+    text-decoration: none;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url(/assets/home/image-homepage-hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* HERO-SECTION */
+.hero-section__presentation {
+    max-width: 40%;
+    height: 50%;
+}
+
+.hero-section__h1 {
+    flex-grow: 0.3;  
+}
+
+/* ABOUT-SECTION */
+.about-section {
+    height: 90vh;
+}
+
+.about__img {
+    max-width: 50vw;
+}
+
+.about-section__description {  
+    border-top: 2px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 2px solid rgba(51, 50, 61, 0.15);
+    mix-blend-mode: normal;
+}
+
+.about-section__p {
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+

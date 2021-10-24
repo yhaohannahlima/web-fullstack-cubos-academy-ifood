@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E6EFF5;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #FFFFFF;
+    width: 635px;
+    padding: 40px;
+
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+    border-radius: 8px 8px 0px 0px;
+
+    font-family: 'Karla', sans-serif;
+    
+}
+
+.card h1 {
+    color: #2AB3B1;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+
+    margin-bottom: 24px;
+}
+
+.card p {
+    color: #C0DF33;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+
+    margin-bottom: 11px;
+}
+
+.card span {
+    color: #9AA7BE;
+    font-weight: normal;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+
+    color: #FFFFFF;
+    font-family: 'Karla', sans-serif;        
+}
+
+.bloco1 {
+    width: 317px;
+    background: rgb(42, 179, 177);
+    padding: 40px;
+}
+
+.bloco1 h1 {   
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+
+    margin-bottom: 18px;
+}
+
+.valor {
+    display: flex; 
+    width: 147px;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: bold;
+    
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.4px;
+
+    margin-bottom: 5px;
+}
+
+.valor #unidade  {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+}
+
+.bloco1 p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+
+    margin-bottom: 26px;
+}
+
+.btn {    
+    background: #C0DF33;
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    display: flex;
+    width: 237px;
+    height: 48px;
+
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    border-radius: 5px;   
+}
+
+.bloco2 {
+    background-color: rgba(42, 179, 177, 0.75);    
+    width: 318px;
+    padding: 40px;
+}
+
+.bloco2 h1 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+
+    margin-bottom: 20px;
+}
+
+.bloco2 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.175px;
+
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}

@@ -1,0 +1,75 @@
+/* GLOBAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BOTÕES, INPUTS E TEXT-AREA*/
+button, input, textarea {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+/* FOOTER */
+.footer {
+    padding: 20px 165px;
+}
+
+.footer__li, .social-media__li {
+    list-style-type: none;
+}
+
+.footer__link {    
+    text-decoration: none;
+}
+
+.btn-primario {
+    padding: 0px 40px;
+}
+
+/*BTN-PRIMÁRIO*/
+.btn-primario__background {
+    padding: 15px 15px;
+
+    background:  rgba(0, 0, 0, 0.1);
+    mix-blend-mode: normal;
+}
+
+.btn-primario__link {
+    text-decoration: none;
+}
+
+.btn-primario__link:hover {
+    background: url(/assets/icons/down-arrows-light.svg), #5FB4A2;  
+    background-repeat: no-repeat;
+    background-position: 14px 16px;
+}
+
+/*BTN-SECUNDÁRIO TIPO 1*/
+.btn-secundario {
+    padding: 15px 65px;
+
+    border: 1px solid rgb(51, 50, 61);
+}
+
+.btn-secundario__link, .btn-secundario2__link {
+    text-decoration: none;
+}
+
+.btn-secundario:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+
+/*BTN-SECUNDÁRIO TIPO 2*/
+.btn-secundario2 {
+    padding: 15px 65px;
+}
+
+.btn-secundario2:hover {
+    background-color: #5FB4A2;
+
+}

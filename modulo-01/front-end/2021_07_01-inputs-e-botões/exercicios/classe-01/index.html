@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagamento</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Get unlimited access to everything</h1>
+
+            <div class="dados-pagamento">
+                <div class="valor-pagamento">
+                    <h2>Total billed $50</h2>
+                    <p>
+                        Enter your credit card details to complete subscription
+                    </p>
+                </div>
+
+                <div class="numero-cartao">
+                    <label for="card-number">Card number</label>
+                    <input type="text" id="card-number" placeholder="1234 1234 1234 1234">
+                </div>
+
+                <div class="validacao-cartao">
+                    <div class="data-vencimento">
+                        <label for="expiration-date">Expiration date</label>
+                        <input type="text" id="expiration-date" placeholder="MM/YY">
+                    </div>
+
+                    <div class="dados-seguranca">
+                        <label for="security-code">Security code</label>
+                        <input type="text" id="security-code" placeholder="123">
+                    </div>
+                </div>
+            </div>
+
+            <span>By subscribing you agree to our Use of Service. Your payment method will be charged with $50 and
+                you’ll have access to all locked features until 20 Jan 2022.</span>
+
+            <button>Pay Now</button>
+
+        </div>
+    </body>
+
+</html>

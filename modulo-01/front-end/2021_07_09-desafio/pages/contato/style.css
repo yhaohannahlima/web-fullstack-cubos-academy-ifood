@@ -1,0 +1,61 @@
+/* PÁGINA DESCONSIDERANDO O FOOTER E O HEADER */
+.page {
+    padding: 60px 165px 0px 165px;
+}
+
+/* HEADER */
+.header {
+    padding-bottom: 100px;
+    border-bottom: 2px solid rgba(51, 50, 61, 0.15);
+}
+
+.header__li {
+    list-style-type: none;
+}
+
+.header__link {    
+    text-decoration: none;
+}
+
+/* HERO-SECTION */
+.hero-section {
+    border-bottom: 2px solid rgba(51, 50, 61, 0.15); 
+}
+
+.hero-section__social-media {
+    padding-bottom: 50px;
+}
+
+.hero-section__li {
+    list-style-type: none;
+}
+
+.hero-section__p {
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+/* FORMS-SECTION */
+.forms-section__container {
+    flex-grow: 0.41;
+}
+
+.forms-section__input {
+    max-width: 100%;
+    padding: 15px 20px;
+
+    background: rgba(51, 50, 61,0.1);
+    mix-blend-mode: normal;
+}
+
+#mensagem {
+    height: 100px;
+
+    overflow-wrap: break-word;
+}
+
+.forms-section__input:focus {
+    border: 2px solid #000000;
+}
+
+

@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFAF2;
+    min-height: 100vh;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+
+    flex-basis: 1000px;
+    height: 471px;
+}
+
+.cardemoji, .cardagradecimento {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 45px rgba(191, 124, 95, 0.2);
+    border-radius: 15px;
+}
+
+.cardemoji {
+    width: 60%;
+    height: 100%;
+
+    margin-right: 60px;
+}
+
+.cardagradecimento {
+    width: 50%;
+    height: 80%;
+}
+
+.btn-fechar {   
+    display: flex;
+    
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+h1 {
+    width: 60%;
+
+    color: #212D59;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.imagensemoji {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reacoes {
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.triste, .neutro, .feliz {
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    color: #212D59;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.5;
+}
+
+a {
+    width: 208px;
+    height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #212D59;
+    border-radius: 5px;
+
+    text-decoration: none;
+    margin-bottom: 35px;
+
+    color: #FFFFFF;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;    
+}
+
+p {
+    width: 70%;
+
+    color: #212D59;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px; 
+    text-align: center;
+}
+
+.comentario a {
+    width: 134px;
+}
+
+.comentario {
+    width: 70%;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: baseline;
+}

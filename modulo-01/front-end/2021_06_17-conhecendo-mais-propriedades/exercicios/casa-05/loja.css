@@ -1,0 +1,97 @@
+body {
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    background-color: #FF7982;
+    padding: 70px 80px 0px 80px;
+}
+
+.card{        
+    margin: 126px auto;        
+    text-align: center;
+}
+
+.call-to-action {
+    background-color: rgba(9, 24, 63, 0.5);
+    box-shadow: 0px 14px 25px -10px rgba(9, 24, 63, 0.17);
+    border-radius: 10px;
+    max-width: 645px;
+    padding: 55px;    
+    color: #FFFFFF;    
+}
+
+.produto {
+    max-width: 500px;
+    background-color: #FFFFFF; 
+    border-radius: 5px;
+    color: #000000;
+}
+
+.produto-1 {
+    margin-bottom: 60px;    
+}
+
+.call-to-action h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 10px;
+}
+
+.produto h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    line-height: 46px;
+    margin-bottom: 26px;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.produto p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 38px;
+}
+
+.call-to-action .btn {
+    background-color: #FF8E4F;
+    color: #FFFFFF;
+}
+
+.produto .btn {
+    background-color: #FFFFFF;
+    border: 1px solid #09183F;
+    color: #09183F;    
+}
+
+.produto .conteudo-card {
+    padding: 50px 60px 40px 60px;
+}
+
+p, a {
+    font-family: "Mulish", sans-serif;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 700px; 
+}
+
+.container {
+    background-color: #F4F8FD;
+    padding: 30px;
+}
+
+.background {
+    background-image: url(assets/background.png);
+    background-size: cover; 
+    padding: 55px 0px;
+    margin-bottom: 70px;
+}
+

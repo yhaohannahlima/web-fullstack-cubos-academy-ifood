@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+}
+
+h1.yellow {
+    color: yellow;
+}
+
+h1.green {
+    color: green;
+}
+
+h1.blue {
+    color: blue;
+}
+
+h1.orange {
+    color: orange;
+}
+
+h1.purple {
+    color: purple;
+}
+
+h1.white {
+    color: white;
+    background-color: black;
+}
+
